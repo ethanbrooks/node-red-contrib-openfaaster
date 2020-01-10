@@ -35,7 +35,10 @@
   "node-red": {
     "nodes": {
       "openfaas-invoke": "dist/openfaas-invoke.js",
-      "openfaas-server": "dist/openfaas-server.js"
+      "openfaas-compose": "dist/openfaas-compose.js",
+      "openfaas-deploy": "dist/openfaas-deploy.js",
+      "openfaas-remove": "dist/openfaas-remove.js",
+      "openfaas-functions": "dist/openfaas-functions.js"
     }
   },
   "dependencies": {
