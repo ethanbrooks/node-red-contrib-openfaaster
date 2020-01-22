@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-openfaaster",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node-red nodes to communicate with OpenFaaS",
   "author": {
     "name": "ethanbrooks",
@@ -29,16 +29,14 @@
     }
   ],
   "scripts": {
-    "start": "gulp",
+    "build": "gulp",
     "release": "gulp && standard-version"
   },
   "node-red": {
     "nodes": {
       "openfaas-invoke": "dist/openfaas-invoke.js",
-      "openfaas-compose": "dist/openfaas-compose.js",
-      "openfaas-deploy": "dist/openfaas-deploy.js",
-      "openfaas-remove": "dist/openfaas-remove.js",
-      "openfaas-functions": "dist/openfaas-functions.js"
+      "openfaas-function": "dist/openfaas-function.js",
+      "openfaas-server": "dist/openfaas-server.js"
     }
   },
   "dependencies": {
