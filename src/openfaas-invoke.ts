@@ -47,12 +47,13 @@ module.exports = function (RED: Red) {
                 false // should the response by binary? Optional, default is false
             )
             .then(response => {
+                console.log(msg)
                 console.log(response);
                 this.send([response, null])
             }) // handle response
             .catch(err => {
                 console.log(err)
-                this.warn(`Unable to exec function "${cid}".`);
+                this.warn(`Unable to exec function`);
                 this.send([err, null])
             })
       })

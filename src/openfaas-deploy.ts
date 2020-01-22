@@ -1,4 +1,4 @@
-
+/*
 openfaas
 .deploy(
     'yolo', // name your function
@@ -7,3 +7,5 @@ openfaas
 )
 .then(x => console.log(x))
 .catch(err => console.log(err))
+
+*/

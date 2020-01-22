@@ -1,4 +1,4 @@
-
+/*
 openfaas
 .compose('initial data', [
     'func_nodeinfo',
@@ -7,3 +7,5 @@ openfaas
 ])
 .then(x => console.log(x.body)) // handle final output
 .catch(err => console.log(err))
+
+*/
